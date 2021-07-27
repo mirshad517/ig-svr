@@ -36,7 +36,7 @@ def acc_type(val):
 def start(update, context):
     id = update.message.chat_id
     name = update.message.from_user['username']
-    update.message.reply_html(
+    update.message.reply_text(
         START_MSG,
         parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("How To Own & Use", url="t.me/Mo_Tech_YT")]]))
