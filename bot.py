@@ -14,9 +14,9 @@ TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
 START_MSG = '''*Welcome To the Bot🖐🖐*
 
-__Send me anyones instagram username to get their DP__
+_Send me anyones instagram username to get their DP_
 
-**ex :** `mrk_yt_`...., **etc**'''
+*ex :* `mrk_yt_`...., *etc*'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -42,7 +42,7 @@ def start(update, context):
                     [[InlineKeyboardButton("How To Own & Use", url="t.me/Mo_Tech_YT")]]))
 
 def help_msg(update, context):
-    update.message.reply_text("Enter Your Instagram UserName")
+    update.message.reply_text("*Enter Your Instagram UserName*")
 
 
 def contact(update, context):
