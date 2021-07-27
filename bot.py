@@ -12,9 +12,11 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-welcome_msg = '''<b>Welcome To the Bot</b>🖐🖐
+START_MSG = '''<b>Welcome To the Bot</b>🖐🖐
+
  <i>Send me anyones instagram username to get their DP</i>
- ex : <b>virat.kohli</b> , <b>thenameisyash</b> etc'''
+
+ ex : <b>mrk_yt_</b> , <b></b> etc'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -40,12 +42,12 @@ def start(update, context):
                     [[InlineKeyboardButton("How To Own & Use", url="t.me/Mo_Tech_YT")]]))
 
 def help_msg(update, context):
-    update.message.reply_text("Nothing to help ,This is way to simple 😂😂")
+    update.message.reply_text("Enter Your Instagram UserName")
 
 
 def contact(update, context):
     keyboard = [[InlineKeyboardButton(
-        "Contact", url=f"telegram.me/{TELEGRAM_USERNAME}")], ]
+        "🗣️Contact✔️", url=f"telegram.me/{TELEGRAM_USERNAME}")], ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
