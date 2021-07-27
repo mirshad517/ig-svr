@@ -12,11 +12,11 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-START_MSG = '''**Welcome To the Bot**🖐🖐
+START_MSG = '''**Welcome To the Bot🖐🖐**
 
 __Send me anyones instagram username to get their DP__
 
- ex : `mrk_yt_`...., etc'''
+**ex :** `mrk_yt_`...., **etc**'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
