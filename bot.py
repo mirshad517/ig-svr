@@ -42,7 +42,7 @@ def start(update, context):
                     [[InlineKeyboardButton("How To Own & Use", url="t.me/Mo_Tech_YT")]]))
 
 def help_msg(update, context):
-    update.message.reply_text("*Enter Your Instagram UserName*")
+    update.message.reply_text("Enter Your Instagram UserName")
 
 
 def contact(update, context):
