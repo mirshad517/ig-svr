@@ -61,10 +61,10 @@ def username(update, context):
     query = update.message.text
     chat_id = update.message.chat_id
     try:
-                user = Profile.from_username(L.context, query)
+        user = Profile.from_username(L.context, query)
         caption_msg = f'''♥️*Name*♥️: {user.full_name} \n😁*Followers*😁: {user.followers} \n🤩*Following*🤩: {user.followees}\
-         \n🧐*Account Type*🧐: {acc_type(user.is_private)}\n\n*Thank You For Using The bot 😀😀*'''
-   
+         \n🧐*Account Type*🧐: {acc_type(user.is_private)}\nBio: {user.biography}\n👀*Midia*👀 {user.mediacount} \n\nThank You For Using The bot 😀😀'''
+       
         context.bot.send_photo(
             chat_id=chat_id, photo=user.profile_pic_url,
             caption=caption_msg, parse_mode='MARKDOWN')
@@ -72,6 +72,7 @@ def username(update, context):
         time.sleep(5)
     except Exception:
         msg.edit_text("Try again 😕😕 Check the username correctly")
+
 
 
 def error(update, context):
