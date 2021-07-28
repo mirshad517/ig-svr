@@ -1,4 +1,16 @@
 ## Instagram DP Saver Bot
+https://github.com//
+<p align="center">
+  <a href="https://github.com/MRK-YT/Instagram_DP_Saver_Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/MRK-YT/Instagram_DP_Saver_Bot?style=social">
+
+  </a>
+  
+  <a href="https://github.com/MRK-YT/Instagram_DP_Saver_Bot/fork">
+    <img src="https://img.shields.io/github/forks/MRK-YT/Instagram_DP_Saver_Bot?label=Fork&style=social">
+
+  </a>  
+</p>
 
 ### A telegram bot to get a anyone's Instagram DP
 
