@@ -39,7 +39,7 @@ def start(update, context):
     update.message.reply_text(
         START_MSG,
         parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("How To Own & Use", url="t.me/Mo_Tech_YT")]]))
+                    [[InlineKeyboardButton("How To Own & Use", url="https://youtu.be/6AlELqY_w6o")]]))
 
 def help_msg(update, context):
     update.message.reply_text("Enter Your Instagram UserName")
