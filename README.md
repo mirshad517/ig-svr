@@ -23,6 +23,6 @@
 
 ## Watch the video here
 
-<a href = "https://youtu.be/lLRP9j_VizM"><img src="https://raw.githubusercontent.com/anishgowda21/SVG_for_README/main/youtube-minimal-icon-1.svg" width="100px"></a>
+<a href = "https://youtu.be/6AlELqY_w6o"><img src="https://raw.githubusercontent.com/anishgowda21/SVG_for_README/main/youtube-minimal-icon-1.svg" width="100px"></a>
 
 ## Visit my bot [Instagram DP Saver Bot](https://telegram.dog/MT_insta_dp_saver_bot)
